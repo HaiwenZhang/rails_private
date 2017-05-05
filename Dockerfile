@@ -9,7 +9,7 @@ RUN apk update \
             build-base \
             bash \
     && rm -rf /var/cache/apk/* \
-    && gem install bundler --no-doc --no-ri \
+    && gem install bundler --no-doc --no-ri
 
 # BUNDLE
 ADD ./Gemfile Gemfile
