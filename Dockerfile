@@ -4,6 +4,7 @@ MAINTAINER Aurora System <it@aurora-system.com>
 RUN apk update \
     && apk add --update \
             mysql-client \
+            mariadb-dev \
             nodejs \
             ruby-dev \
             build-base \
